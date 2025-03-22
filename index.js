@@ -7,7 +7,7 @@ const server = require("http").createServer(app);
 
 const io = require("socket.io")(server, {
   cors: {
-    origin: "http://127.0.0.1:5500",
+    origin: "https://olgochat.netlify.app/",
     methods: ["GET", "POST"],
     allowedHeaders: ["Content-Type"],
     credentials: true,
